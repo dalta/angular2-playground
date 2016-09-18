@@ -23,3 +23,9 @@ In VS Code, to hide .js and .map.js file generated after transpiling - add follo
 ```
 
 For execution steps follow - [Angular QuickStart](https://angular.io/docs/ts/latest/quickstart.html)
+
+The steps are -
+
+1. npm install
+2. npm run typings install
+3. npm start
