@@ -14,6 +14,16 @@ export class ProductComponent{
 }
 ```
 
+Adding a new Subcomponent
+=========================
+A subcomponent will be present as a directive in a parent compoenent. 
+To create and use a subcomponent,
+
+1. Create a compoenent.html file
+2. Create a Compoenent.ts file with templateUrl=app/**/compoenent.html
+3. Add the directive in parent component's template.
+4. In parent compoenent's module.ts file, import child compoenent and specify it in declarations.
+
 Tips
 =====
 1. The name of a compoenent file should be `product.compoenent.ts`. 
